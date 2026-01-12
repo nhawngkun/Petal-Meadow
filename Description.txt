@@ -1,0 +1,55 @@
+# 🌸 PETAL MEADOW - HOW TO PLAY
+
+## 🍓 OBJECTIVE
+Welcome to Petal Meadow - a beautiful flower field full of adorable birds!
+
+Your mission is to capture the wild birds and return them to their correct nests according to color before time runs out.
+
+## 🕹️ CONTROLS
+- Use the on-screen joystick to move your strawberry.
+- Approach wild birds to begin the taming process.
+- Swipe smoothly to guide your flock of birds.
+
+## 🐦 TAMING BIRDS
+- Keep the bird within the bright circle around the strawberry.
+- Wait for the white loading bar to fill (approximately 2 seconds).
+
+- When tamed successfully, the bird will display a happy heart/star icon.
+- Tamed birds will have a bright white border and automatically follow you.
+
+## 🏠 GUIDING BIRDS TO THEIR NESTS
+- Blue birds must go to the Blue Nest 🔵
+- Pink birds must go to the Pink Nest 🩷
+
+- Purple birds must go to the Purple Nest 💜
+
+- Guide the birds near the nest; they will automatically fly in.
+
+- When they enter the correct nest: A green checkmark ✅ will appear and a cheerful sound will play!
+
+## ⚠️ IMPORTANT NOTE
+- Birds will lose their tameness if you stay too far away (about 2 seconds outside the circle).
+
+- If you lead a bird to the wrong nest: A red ❌ mark will appear.
+- Birds that enter the wrong nest can still be rescued - tame them again and lead them out.
+
+- Pay attention to the countdown timer in the upper corner - it will flash red when there are 10 seconds left!
+
+- Each level may have 1, 2, or all 3 different bird colors.
+
+## 🎯 WINNING CONDITIONS
+
+Get ALL the birds into their correct nests before time runs out!
+
+The screen will show the number of birds that have entered/total number of birds for each color in the upper corner.
+
+## 🎮 GAME TIPS
+- Capture multiple birds at once to save time
+- Prioritize birds furthest from the nest first
+- Take the birds to the nearest nest first
+- Always pay attention to the capture circle to avoid losing birds
+- If time is running out, focus on completing the color with the fewest birds remaining
+
+---
+
+🌸 **Have fun playing at Petal Meadow!** 🌸
