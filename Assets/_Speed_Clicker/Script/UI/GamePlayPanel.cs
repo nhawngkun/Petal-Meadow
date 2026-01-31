@@ -13,7 +13,6 @@ public class GamePlayPanel :BaseUI
     public void SetInfor() 
     {
         Avatar.onClick.AddListener(UIManager.Instance.skinPanel.Show);
-        Pet.onClick.AddListener(UIManager.Instance.petPanel.Show);
         UpdateText();
     }
 

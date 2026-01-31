@@ -13,14 +13,7 @@ public class SkinPanel : BaseUI
 
     void InitOutfitSlots()
     {
-        var pool = GameManager.Instance.objectPool;
-        foreach (var outfit in GameManager.Instance.outfitData.rawOutfits)
-        {
-            var slot = pool.GetSlotOutfit(outfit.CharacterType, contentOutfit);
-            slot.characterType = outfit.CharacterType;
-            slot.SetInfoSlot();
-            SetFrameChooseOutfit(slot);
-        }
+       
     }
 
     public void RefreshOutfitSlots()

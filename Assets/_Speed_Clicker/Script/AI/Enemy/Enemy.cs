@@ -9,7 +9,7 @@ using UnityEngine;
 using UnityEngine.AI;
 using UnityEngine.Profiling;
 
-public abstract class Enemy : TickableBehaviour
+public  class Enemy : MonoBehaviour
 {
 
     public EnemyState currentState;
@@ -79,9 +79,14 @@ public abstract class Enemy : TickableBehaviour
         stunEffect.gameObject?.SetActive(false);
 
     }
-    
 
-    
+
+    protected void RegisterStates()
+    {
+
+
+    }
+
 
 
 
@@ -114,7 +119,6 @@ public abstract class Enemy : TickableBehaviour
 
     }
 
-    protected abstract void RegisterStates();
 
     public void ChangeState<T>() where T : IState
     {
@@ -267,3 +271,7 @@ public enum EnemyState
     Die,
     Escape
 }
+
+
+
+

@@ -1186,6 +1186,7 @@ GameObject:
   - component: {fileID: 353128639}
   - component: {fileID: 353128641}
   - component: {fileID: 353128640}
+  - component: {fileID: 353128642}
   m_Layer: 0
   m_Name: Enemy
   m_TagString: Untagged
@@ -1254,6 +1255,46 @@ NavMeshAgent:
   m_BaseOffset: 0
   m_WalkableMask: 4294967295
   m_ObstacleAvoidanceType: 4
+--- !u!114 &353128642
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 353128638}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ded4f2010eb2e074b8f98322534adbd4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  currentState: 0
+  stunEffect: {fileID: 0}
+  maxHealth: 100
+  health: 50
+  Range: 5
+  moveSpeed: 12
+  ChaseSpeed: 12
+  Damage: 50
+  Atkspeed: 50
+  Move_ID: 0
+  waitTime: 2
+  jumpHeight: 2
+  jumpDuration: 0.5
+  _IsMoving: 0
+  _IsAttack: 0
+  _IsStunned: 0
+  IsPlayerInAttackRange: 0
+  _hasDied: 0
+  stuned: 0
+  _isJumping: 0
+  canAtk: 0
+  animator: {fileID: 643264731}
+  _agent: {fileID: 353128641}
+  _rb: {fileID: 0}
+  _target: {fileID: 0}
+  knockbackForce: 1
+  knockbackTime: 0.2
+  _waypointCount: 10
 --- !u!1 &354644235
 GameObject:
   m_ObjectHideFlags: 0
@@ -1931,6 +1972,54 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 452312931}
   m_CullTransparentMesh: 1
+--- !u!1 &466540637
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 466540639}
+  - component: {fileID: 466540638}
+  m_Layer: 0
+  m_Name: GameManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &466540638
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 466540637}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 89ec5bc28f0afc3409450ab69b54652c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  objectPool: {fileID: 0}
+  outfitData: {fileID: 0}
+  spriteCollection: {fileID: 0}
+  cookedPetData: {fileID: 0}
+--- !u!4 &466540639
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 466540637}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 4.9084516, y: 0.6656826, z: -0.54042774}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &485169995
 GameObject:
   m_ObjectHideFlags: 0
@@ -10059,6 +10148,7 @@ SceneRoots:
   m_ObjectHideFlags: 0
   m_Roots:
   - {fileID: 410087041}
+  - {fileID: 466540639}
   - {fileID: 832575519}
   - {fileID: 682487637}
   - {fileID: 489814313}

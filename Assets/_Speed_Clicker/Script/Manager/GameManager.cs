@@ -6,9 +6,7 @@ using UnityEngine;
 public class GameManager : Singleton<GameManager>
 {
     public ObjectPool objectPool;
-    public RawOutfitData outfitData;
     public SpriteCollection spriteCollection;
-    public CookedPetData cookedPetData;
     public PlayerProfiles PlayerProfile;
     public override void Init()
     {
