@@ -27,13 +27,13 @@ public class PlayerAction : MonoBehaviour
 
     private void Start()
     {
-        SetSkin(GameManager.Instance.PlayerProfile.outfitProfile.skinEquip);
+        //SetSkin(GameManager.Instance.PlayerProfile.outfitProfile.skinEquip);
     }
 
     public void SetSkin(CharacterType type) 
     {
         Skin skin = _skinManager.GetSkin(type);
-        GameManager.Instance.PlayerProfile.outfitProfile.skinEquip = type;
+        //GameManager.Instance.PlayerProfile.outfitProfile.skinEquip = type;
         _mainAnimator = skin._animator;
     }
 
@@ -51,7 +51,7 @@ public class PlayerAction : MonoBehaviour
     public void SetAnimation()
     {
         ApplyToAnimator(_mainAnimator);
-        _mainAnimator.speed = _IsJump ? 1 :_MoveCurve.Evaluate(0.5f + GameController.Instance.PlayerController.bonusSpeed * GameController.Instance.PlayerController.MulSpeed());
+        //_mainAnimator.speed = _IsJump ? 1 :_MoveCurve.Evaluate(0.5f + GameController.Instance.PlayerController.bonusSpeed * GameController.Instance.PlayerController.MulSpeed());
     }
 
     private void ApplyToAnimator(Animator anim)
