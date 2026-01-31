@@ -14,9 +14,9 @@ public static class AnimatorParameters
     public static readonly int IS_PUT_ITEM = Animator.StringToHash("PutItem");
 
     ////Enemy
-    public static readonly int E_IS_RUN = Animator.StringToHash("Is_Move");
+    public static readonly int E_IS_RUN = Animator.StringToHash("Moving");
     public static readonly int E_BLEND___MOVE__ID = Animator.StringToHash("Move_ID");
-
+    public static readonly int E_IS_ATTACK = Animator.StringToHash("Atk");
 
     public static readonly int V_IS_RUN = Animator.StringToHash("IsMove");
     public static readonly int V_IS_RAGGING = Animator.StringToHash("IsRagging");

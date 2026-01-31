@@ -9,11 +9,11 @@ using UnityEngine;
 using UnityEngine.AI;
 using UnityEngine.Profiling;
 
-public  class Enemy : MonoBehaviour
+public class Enemy : MonoBehaviour
 {
 
     public EnemyState currentState;
-    [FoldoutGroup("Stats")] public ParticleSystem stunEffect;
+
     [FoldoutGroup("Stats")][SerializeField] private float maxHealth = 100f;
     [FoldoutGroup("Stats")] public float health = 50f;
     [FoldoutGroup("Stats")] public float Range = 5f;
@@ -53,7 +53,7 @@ public  class Enemy : MonoBehaviour
     protected Dictionary<Type, IState> _states = new();
     protected IState _currentState;
     public bool IsHitAttack { get; set; }
- 
+
 
     void OnValidate()
     {
@@ -67,8 +67,8 @@ public  class Enemy : MonoBehaviour
                 _agent = gameObject.AddComponent<NavMeshAgent>();
         }
 
-       
-       
+
+
 
     }
 
@@ -76,7 +76,7 @@ public  class Enemy : MonoBehaviour
     {
         health = maxHealth;
         RegisterStates();
-        stunEffect.gameObject?.SetActive(false);
+
 
     }
 
@@ -106,7 +106,7 @@ public  class Enemy : MonoBehaviour
 
     }
 
-    public void OnTickableUpdat()
+    public void Update()
     {
         SetAnimation();
         if (_IsDie)
@@ -136,8 +136,8 @@ public  class Enemy : MonoBehaviour
         {
             float deltaTime = Time.deltaTime;
             animator.SetBool(AnimatorParameters.E_IS_RUN, _IsMoving && !_IsDie && !_IsStunned);
-            //animator.SetBool(AnimatorParameters.E_IS_ATTACK, _IsAttack && !_IsDie && !_IsStunned);
-            //animator.SetBool(AnimatorParameters.E_IS_DEAD, _IsDie);
+            animator.SetBool(AnimatorParameters.E_IS_ATTACK, _IsAttack && !_IsDie && !_IsStunned);
+            // animator.SetBool(AnimatorParameters.E_IS_DEAD, _IsDie);
         }
 
     }
@@ -152,7 +152,7 @@ public  class Enemy : MonoBehaviour
     float patrolRadius;
     private void GeneratePatrolPoints()
     {
-        
+
     }
     public void GoToRandomPoint()
     {
