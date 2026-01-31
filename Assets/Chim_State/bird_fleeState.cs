@@ -1,11 +1,11 @@
 using UnityEngine;
 using UnityEngine.AI;
-using System.Collections; // Cần thư viện này để dùng Coroutine
+using System.Collections; 
 
 public class bird_FleeState : IState
 {
     private ChimController bird;
-    
+
     // Lưu các chỉ số ban đầu
     private float originalSpeed;
     private float originalAcceleration;
@@ -13,15 +13,15 @@ public class bird_FleeState : IState
     private bool originalAutoBraking;
 
     // Biến kiểm soát việc hồi phục tốc độ
-    private Coroutine resetSpeedCoroutine; 
+    private Coroutine resetSpeedCoroutine;
     private bool isRecoveringSpeed = false; // Cờ đánh dấu đang trong quá trình giảm tốc
 
     // Cấu hình Flee
-    private float runMultiplier = 1.5f;     
-    private float fleeAcceleration = 60f;   
-    private float fleeAngularSpeed = 600f;  
+    private float runMultiplier = 1.5f;
+    private float fleeAcceleration = 60f;
+    private float fleeAngularSpeed = 600f;
     private float pathUpdateThreshold = 3.0f;
-    private float coolDownDuration = 2.0f;  // Thời gian để giảm tốc từ chạy -> đi bộ (2 giây)
+    private float coolDownDuration = 1.0f;  // Thời gian để giảm tốc từ chạy -> đi bộ (2 giây)
 
     public bird_FleeState(ChimController bird)
     {
@@ -54,7 +54,7 @@ public class bird_FleeState : IState
             bird.agent.speed = originalSpeed * runMultiplier;
             bird.agent.acceleration = fleeAcceleration;
             bird.agent.angularSpeed = fleeAngularSpeed;
-            bird.agent.autoBraking = false; 
+            bird.agent.autoBraking = false;
 
             bird.agent.isStopped = false;
             bird.agent.ResetPath();
@@ -113,12 +113,15 @@ public class bird_FleeState : IState
             bird.agent.acceleration = originalAcceleration;
             bird.agent.angularSpeed = originalAngularSpeed;
             bird.agent.autoBraking = originalAutoBraking;
-            
+
             bird.agent.ResetPath();
 
             // 2. KHÔNG trả lại Speed ngay, mà chạy Coroutine giảm từ từ
             // Gọi StartCoroutine thông qua 'bird' (vì bird là MonoBehaviour)
             resetSpeedCoroutine = bird.StartCoroutine(SmoothSpeedReset(coolDownDuration));
+
+            // 3. BẮT ĐẦU COOLDOWN - Chim sẽ không thể phát hiện player trong thời gian này
+            bird.StartDetectionCooldown();
         }
     }
 
@@ -126,7 +129,7 @@ public class bird_FleeState : IState
     IEnumerator SmoothSpeedReset(float duration)
     {
         isRecoveringSpeed = true;
-        
+
         float startSpeed = bird.agent.speed;
         float elapsed = 0f;
 
@@ -138,7 +141,7 @@ public class bird_FleeState : IState
             elapsed += Time.deltaTime;
             // Dùng hàm Lerp để chuyển dần tốc độ về originalSpeed
             bird.agent.speed = Mathf.Lerp(startSpeed, originalSpeed, elapsed / duration);
-            
+
             yield return null; // Chờ frame tiếp theo
         }
 

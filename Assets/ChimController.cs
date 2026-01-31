@@ -12,12 +12,17 @@ public class ChimController : MonoBehaviour
     public float detectionRange = 25f; // Tầm nhìn xa để bắt đầu cảnh giác
     public float fleeDistance = 15f;    // Khoảng cách an toàn để ngừng chạy
     public float patrolRadius = 10f;
+    public float detectionCooldown = 8f; // Thời gian hồi trước khi có thể phát hiện player lại
 
     protected Dictionary<Type, IState> _states = new();
     protected IState _currentState;
 
     // Cache giá trị bình phương để tối ưu hiệu năng (tránh tính căn bậc 2 mỗi frame)
     private float _sqrDetectionRange;
+    
+    // Cooldown timer
+    private float _cooldownTimer = 0f;
+    public bool IsInCooldown => _cooldownTimer > 0f;
 
     protected virtual void Awake()
     {
@@ -51,11 +56,18 @@ public class ChimController : MonoBehaviour
     {
         if (_currentState == null || player == null) return;
 
+        // Giảm cooldown timer mỗi frame
+        if (_cooldownTimer > 0f)
+        {
+            _cooldownTimer -= Time.deltaTime;
+        }
+
         // TỐI ƯU: Sử dụng sqrMagnitude thay vì Distance
         float sqrDist = (transform.position - player.position).sqrMagnitude;
 
         // Nếu Player đi vào vùng nhận diện và Chim đang không chạy trốn
-        if (sqrDist < _sqrDetectionRange && !(_currentState is bird_FleeState))
+        // VÀ không trong thời gian cooldown
+        if (sqrDist < _sqrDetectionRange && !(_currentState is bird_FleeState) && !IsInCooldown)
         {
             ChangeState<bird_FleeState>();
         }
@@ -73,6 +85,12 @@ public class ChimController : MonoBehaviour
         _currentState?.OnExit();
         _currentState = _states[type];
         _currentState?.OnEnter();
+    }
+
+    // Method để bắt đầu cooldown (được gọi từ FleeState)
+    public void StartDetectionCooldown()
+    {
+        _cooldownTimer = detectionCooldown;
     }
 
     public Vector3 GetPatrolPoints()

@@ -44,7 +44,7 @@ NavMeshAgent:
   m_GameObject: {fileID: 2999802434890669615}
   m_Enabled: 1
   m_AgentTypeID: 0
-  m_Radius: 0.94
+  m_Radius: 0.98
   m_Speed: 20
   m_Acceleration: 35
   avoidancePriority: 50
@@ -76,7 +76,7 @@ SphereCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Radius: 1.1078084
+  m_Radius: 1.08
   m_Center: {x: 0, y: 0.86906964, z: 5.4039405e-11}
 --- !u!114 &8995893284865357491
 MonoBehaviour:
@@ -92,7 +92,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   agent: {fileID: 5189028689050091216}
   player: {fileID: 0}
+  detectionRange: 25
   fleeDistance: 10
+  patrolRadius: 10
+  detectionCooldown: 8
 --- !u!1001 &5399275456819638226
 PrefabInstance:
   m_ObjectHideFlags: 0

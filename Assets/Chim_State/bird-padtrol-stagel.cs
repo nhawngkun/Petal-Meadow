@@ -12,28 +12,27 @@ public class bird_PatrolState : IState
     {
         this.bird = bird;
         agent = bird.agent;
-            
+
     }
-      public void OnEnter()
-   {
-       timer = Random.Range(1,2);
+    public void OnEnter()
+    {
+        timer = Random.Range(1, 2);
 
-   }
-   public virtual void Execute()
-   {
+    }
+    public virtual void Execute()
+    {
 
-       timer -= Time.deltaTime;
-       if (timer <= 0)
-       {
-           bird.ChangeState<bird_ChaseState>();
-       }
-   }
+        timer -= Time.deltaTime;
+        if (timer <= 0)
+        {
+            bird.ChangeState<bird_ChaseState>();
+        }
+    }
 
 
 
-   public void OnExit()
-   {
+    public void OnExit()
+    {
 
-   }
+    }
 }
-
