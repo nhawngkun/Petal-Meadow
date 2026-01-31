@@ -2002,9 +2002,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   objectPool: {fileID: 0}
-  outfitData: {fileID: 0}
   spriteCollection: {fileID: 0}
-  cookedPetData: {fileID: 0}
 --- !u!4 &466540639
 Transform:
   m_ObjectHideFlags: 0
@@ -8694,15 +8692,15 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1684000385868622523}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0.7071068, z: 0, w: 0.7071068}
-  m_LocalPosition: {x: 0, y: -0.91, z: 0}
+  m_LocalRotation: {x: -0, y: 0.7128377, z: -0, w: 0.70132905}
+  m_LocalPosition: {x: 0.000055402517, y: -0.9100001, z: 0.0068136915}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 466116800329306094}
   - {fileID: 3620865112885501584}
   m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 90.933, z: 0}
 --- !u!1 &1935549760939814909
 GameObject:
   m_ObjectHideFlags: 0
@@ -8749,6 +8747,79 @@ MonoBehaviour:
   m_DefaultActionMap: Player
   m_SplitScreenIndex: -1
   m_Camera: {fileID: 0}
+--- !u!1001 &3196108477546790095
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 2999802434890669615, guid: 2535fa721a92c5c40a3a36e9234f02d1, type: 3}
+      propertyPath: m_Name
+      value: chim
+      objectReference: {fileID: 0}
+    - target: {fileID: 4215099451741775130, guid: 2535fa721a92c5c40a3a36e9234f02d1, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 9.85
+      objectReference: {fileID: 0}
+    - target: {fileID: 4215099451741775130, guid: 2535fa721a92c5c40a3a36e9234f02d1, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -6.97
+      objectReference: {fileID: 0}
+    - target: {fileID: 4215099451741775130, guid: 2535fa721a92c5c40a3a36e9234f02d1, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.01
+      objectReference: {fileID: 0}
+    - target: {fileID: 4215099451741775130, guid: 2535fa721a92c5c40a3a36e9234f02d1, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.9999999
+      objectReference: {fileID: 0}
+    - target: {fileID: 4215099451741775130, guid: 2535fa721a92c5c40a3a36e9234f02d1, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.00052356074
+      objectReference: {fileID: 0}
+    - target: {fileID: 4215099451741775130, guid: 2535fa721a92c5c40a3a36e9234f02d1, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4215099451741775130, guid: 2535fa721a92c5c40a3a36e9234f02d1, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4215099451741775130, guid: 2535fa721a92c5c40a3a36e9234f02d1, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: -0.06
+      objectReference: {fileID: 0}
+    - target: {fileID: 4215099451741775130, guid: 2535fa721a92c5c40a3a36e9234f02d1, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4215099451741775130, guid: 2535fa721a92c5c40a3a36e9234f02d1, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5189028689050091216, guid: 2535fa721a92c5c40a3a36e9234f02d1, type: 3}
+      propertyPath: m_Radius
+      value: 0.98
+      objectReference: {fileID: 0}
+    - target: {fileID: 6831393493644290310, guid: 2535fa721a92c5c40a3a36e9234f02d1, type: 3}
+      propertyPath: m_Radius
+      value: 1.08
+      objectReference: {fileID: 0}
+    - target: {fileID: 8995893284865357491, guid: 2535fa721a92c5c40a3a36e9234f02d1, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 1774120966264621280}
+    - target: {fileID: 8995893284865357491, guid: 2535fa721a92c5c40a3a36e9234f02d1, type: 3}
+      propertyPath: patrolRadius
+      value: 10
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 2535fa721a92c5c40a3a36e9234f02d1, type: 3}
 --- !u!1001 &3620865112885501582
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -9391,139 +9462,21 @@ PrefabInstance:
       objectReference: {fileID: 6948326234073799617, guid: 9627d883ab4bd47428c8c98126e2eaa0, type: 3}
     - target: {fileID: 6948326234073799617, guid: 9627d883ab4bd47428c8c98126e2eaa0, type: 3}
       propertyPath: serializationData.PrefabModifications.Array.size
-      value: 9
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6948326234073799617, guid: 9627d883ab4bd47428c8c98126e2eaa0, type: 3}
       propertyPath: serializationData.PrefabModifications.Array.data[0]
       value: '"path":"_skinDict","add_keys":null,"remove_keys":{"$id":0,"$type":"System.Object[],
-        mscorlib","$rlength":190,"$rcontent":[{"$id":1,"$type":"CharacterType, Assembly-CSharp",8},{"$id":2,"$type":"CharacterType,
-        Assembly-CSharp",9},{"$id":3,"$type":"CharacterType, Assembly-CSharp",8},{"$id":4,"$type":"CharacterType,
-        Assembly-CSharp",10},{"$id":5,"$type":"CharacterType, Assembly-CSharp",9},{"$id":6,"$type":"CharacterType,
-        Assembly-CSharp",8},{"$id":7,"$type":"CharacterType, Assembly-CSharp",11},{"$id":8,"$type":"CharacterType,
-        Assembly-CSharp",10},{"$id":9,"$type":"CharacterType, Assembly-CSharp",9},{"$id":10,"$type":"CharacterType,
-        Assembly-CSharp",8},{"$id":11,"$type":"CharacterType, Assembly-CSharp",12},{"$id":12,"$type":"CharacterType,
-        Assembly-CSharp",11},{"$id":13,"$type":"CharacterType, Assembly-CSharp",10},{"$id":14,"$type":"CharacterType,
-        Assembly-CSharp",9},{"$id":15,"$type":"CharacterType, Assembly-CSharp",8},{"$id":16,"$type":"CharacterType,
-        Assembly-CSharp",13},{"$id":17,"$type":"CharacterType, Assembly-CSharp",12},{"$id":18,"$type":"CharacterType,
-        Assembly-CSharp",11},{"$id":19,"$type":"CharacterType, Assembly-CSharp",10},{"$id":20,"$type":"CharacterType,
-        Assembly-CSharp",9},{"$id":21,"$type":"CharacterType, Assembly-CSharp",8},{"$id":22,"$type":"CharacterType,
-        Assembly-CSharp",13},{"$id":23,"$type":"CharacterType, Assembly-CSharp",14},{"$id":24,"$type":"CharacterType,
-        Assembly-CSharp",12},{"$id":25,"$type":"CharacterType, Assembly-CSharp",11},{"$id":26,"$type":"CharacterType,
-        Assembly-CSharp",10},{"$id":27,"$type":"CharacterType, Assembly-CSharp",9},{"$id":28,"$type":"CharacterType,
-        Assembly-CSharp",8},{"$id":29,"$type":"CharacterType, Assembly-CSharp",13},{"$id":30,"$type":"CharacterType,
-        Assembly-CSharp",14},{"$id":31,"$type":"CharacterType, Assembly-CSharp",12},{"$id":32,"$type":"CharacterType,
-        Assembly-CSharp",11},{"$id":33,"$type":"CharacterType, Assembly-CSharp",10},{"$id":34,"$type":"CharacterType,
-        Assembly-CSharp",9},{"$id":35,"$type":"CharacterType, Assembly-CSharp",15},{"$id":36,"$type":"CharacterType,
-        Assembly-CSharp",8},{"$id":37,"$type":"CharacterType, Assembly-CSharp",16},{"$id":38,"$type":"CharacterType,
-        Assembly-CSharp",13},{"$id":39,"$type":"CharacterType, Assembly-CSharp",14},{"$id":40,"$type":"CharacterType,
-        Assembly-CSharp",12},{"$id":41,"$type":"CharacterType, Assembly-CSharp",11},{"$id":42,"$type":"CharacterType,
-        Assembly-CSharp",10},{"$id":43,"$type":"CharacterType, Assembly-CSharp",9},{"$id":44,"$type":"CharacterType,
-        Assembly-CSharp",15},{"$id":45,"$type":"CharacterType, Assembly-CSharp",8},{"$id":46,"$type":"CharacterType,
-        Assembly-CSharp",16},{"$id":47,"$type":"CharacterType, Assembly-CSharp",17},{"$id":48,"$type":"CharacterType,
-        Assembly-CSharp",13},{"$id":49,"$type":"CharacterType, Assembly-CSharp",14},{"$id":50,"$type":"CharacterType,
-        Assembly-CSharp",12},{"$id":51,"$type":"CharacterType, Assembly-CSharp",11},{"$id":52,"$type":"CharacterType,
-        Assembly-CSharp",10},{"$id":53,"$type":"CharacterType, Assembly-CSharp",9},{"$id":54,"$type":"CharacterType,
-        Assembly-CSharp",15},{"$id":55,"$type":"CharacterType, Assembly-CSharp",8},{"$id":56,"$type":"CharacterType,
-        Assembly-CSharp",16},{"$id":57,"$type":"CharacterType, Assembly-CSharp",17},{"$id":58,"$type":"CharacterType,
-        Assembly-CSharp",18},{"$id":59,"$type":"CharacterType, Assembly-CSharp",13},{"$id":60,"$type":"CharacterType,
-        Assembly-CSharp",14},{"$id":61,"$type":"CharacterType, Assembly-CSharp",12},{"$id":62,"$type":"CharacterType,
-        Assembly-CSharp",11},{"$id":63,"$type":"CharacterType, Assembly-CSharp",10},{"$id":64,"$type":"CharacterType,
-        Assembly-CSharp",9},{"$id":65,"$type":"CharacterType, Assembly-CSharp",15},{"$id":66,"$type":"CharacterType,
-        Assembly-CSharp",8},{"$id":67,"$type":"CharacterType, Assembly-CSharp",16},{"$id":68,"$type":"CharacterType,
-        Assembly-CSharp",17},{"$id":69,"$type":"CharacterType, Assembly-CSharp",18},{"$id":70,"$type":"CharacterType,
-        Assembly-CSharp",19},{"$id":71,"$type":"CharacterType, Assembly-CSharp",13},{"$id":72,"$type":"CharacterType,
-        Assembly-CSharp",14},{"$id":73,"$type":"CharacterType, Assembly-CSharp",12},{"$id":74,"$type":"CharacterType,
-        Assembly-CSharp",11},{"$id":75,"$type":"CharacterType, Assembly-CSharp",10},{"$id":76,"$type":"CharacterType,
-        Assembly-CSharp",9},{"$id":77,"$type":"CharacterType, Assembly-CSharp",15},{"$id":78,"$type":"CharacterType,
-        Assembly-CSharp",8},{"$id":79,"$type":"CharacterType, Assembly-CSharp",16},{"$id":80,"$type":"CharacterType,
-        Assembly-CSharp",17},{"$id":81,"$type":"CharacterType, Assembly-CSharp",18},{"$id":82,"$type":"CharacterType,
-        Assembly-CSharp",19},{"$id":83,"$type":"CharacterType, Assembly-CSharp",20},{"$id":84,"$type":"CharacterType,
-        Assembly-CSharp",13},{"$id":85,"$type":"CharacterType, Assembly-CSharp",14},{"$id":86,"$type":"CharacterType,
-        Assembly-CSharp",12},{"$id":87,"$type":"CharacterType, Assembly-CSharp",11},{"$id":88,"$type":"CharacterType,
-        Assembly-CSharp",10},{"$id":89,"$type":"CharacterType, Assembly-CSharp",9},{"$id":90,"$type":"CharacterType,
-        Assembly-CSharp",15},{"$id":91,"$type":"CharacterType, Assembly-CSharp",8},{"$id":92,"$type":"CharacterType,
-        Assembly-CSharp",16},{"$id":93,"$type":"CharacterType, Assembly-CSharp",17},{"$id":94,"$type":"CharacterType,
-        Assembly-CSharp",18},{"$id":95,"$type":"CharacterType, Assembly-CSharp",19},{"$id":96,"$type":"CharacterType,
-        Assembly-CSharp",20},{"$id":97,"$type":"CharacterType, Assembly-CSharp",21},{"$id":98,"$type":"CharacterType,
-        Assembly-CSharp",13},{"$id":99,"$type":"CharacterType, Assembly-CSharp",14},{"$id":100,"$type":"CharacterType,
-        Assembly-CSharp",12},{"$id":101,"$type":"CharacterType, Assembly-CSharp",11},{"$id":102,"$type":"CharacterType,
-        Assembly-CSharp",10},{"$id":103,"$type":"CharacterType, Assembly-CSharp",9},{"$id":104,"$type":"CharacterType,
-        Assembly-CSharp",15},{"$id":105,"$type":"CharacterType, Assembly-CSharp",8},{"$id":106,"$type":"CharacterType,
-        Assembly-CSharp",16},{"$id":107,"$type":"CharacterType, Assembly-CSharp",17},{"$id":108,"$type":"CharacterType,
-        Assembly-CSharp",22},{"$id":109,"$type":"CharacterType, Assembly-CSharp",18},{"$id":110,"$type":"CharacterType,
-        Assembly-CSharp",19},{"$id":111,"$type":"CharacterType, Assembly-CSharp",20},{"$id":112,"$type":"CharacterType,
-        Assembly-CSharp",21},{"$id":113,"$type":"CharacterType, Assembly-CSharp",13},{"$id":114,"$type":"CharacterType,
-        Assembly-CSharp",14},{"$id":115,"$type":"CharacterType, Assembly-CSharp",12},{"$id":116,"$type":"CharacterType,
-        Assembly-CSharp",11},{"$id":117,"$type":"CharacterType, Assembly-CSharp",10},{"$id":118,"$type":"CharacterType,
-        Assembly-CSharp",9},{"$id":119,"$type":"CharacterType, Assembly-CSharp",15},{"$id":120,"$type":"CharacterType,
-        Assembly-CSharp",8},{"$id":121,"$type":"CharacterType, Assembly-CSharp",16},{"$id":122,"$type":"CharacterType,
-        Assembly-CSharp",17},{"$id":123,"$type":"CharacterType, Assembly-CSharp",23},{"$id":124,"$type":"CharacterType,
-        Assembly-CSharp",22},{"$id":125,"$type":"CharacterType, Assembly-CSharp",18},{"$id":126,"$type":"CharacterType,
-        Assembly-CSharp",19},{"$id":127,"$type":"CharacterType, Assembly-CSharp",20},{"$id":128,"$type":"CharacterType,
-        Assembly-CSharp",21},{"$id":129,"$type":"CharacterType, Assembly-CSharp",13},{"$id":130,"$type":"CharacterType,
-        Assembly-CSharp",14},{"$id":131,"$type":"CharacterType, Assembly-CSharp",12},{"$id":132,"$type":"CharacterType,
-        Assembly-CSharp",11},{"$id":133,"$type":"CharacterType, Assembly-CSharp",10},{"$id":134,"$type":"CharacterType,
-        Assembly-CSharp",9},{"$id":135,"$type":"CharacterType, Assembly-CSharp",15},{"$id":136,"$type":"CharacterType,
-        Assembly-CSharp",8},{"$id":137,"$type":"CharacterType, Assembly-CSharp",16},{"$id":138,"$type":"CharacterType,
-        Assembly-CSharp",17},{"$id":139,"$type":"CharacterType, Assembly-CSharp",23},{"$id":140,"$type":"CharacterType,
-        Assembly-CSharp",22},{"$id":141,"$type":"CharacterType, Assembly-CSharp",18},{"$id":142,"$type":"CharacterType,
-        Assembly-CSharp",19},{"$id":143,"$type":"CharacterType, Assembly-CSharp",20},{"$id":144,"$type":"CharacterType,
-        Assembly-CSharp",21},{"$id":145,"$type":"CharacterType, Assembly-CSharp",27},{"$id":146,"$type":"CharacterType,
-        Assembly-CSharp",13},{"$id":147,"$type":"CharacterType, Assembly-CSharp",14},{"$id":148,"$type":"CharacterType,
-        Assembly-CSharp",12},{"$id":149,"$type":"CharacterType, Assembly-CSharp",11},{"$id":150,"$type":"CharacterType,
-        Assembly-CSharp",10},{"$id":151,"$type":"CharacterType, Assembly-CSharp",9},{"$id":152,"$type":"CharacterType,
-        Assembly-CSharp",15},{"$id":153,"$type":"CharacterType, Assembly-CSharp",8},{"$id":154,"$type":"CharacterType,
-        Assembly-CSharp",16},{"$id":155,"$type":"CharacterType, Assembly-CSharp",17},{"$id":156,"$type":"CharacterType,
-        Assembly-CSharp",24},{"$id":157,"$type":"CharacterType, Assembly-CSharp",23},{"$id":158,"$type":"CharacterType,
-        Assembly-CSharp",22},{"$id":159,"$type":"CharacterType, Assembly-CSharp",18},{"$id":160,"$type":"CharacterType,
-        Assembly-CSharp",19},{"$id":161,"$type":"CharacterType, Assembly-CSharp",20},{"$id":162,"$type":"CharacterType,
-        Assembly-CSharp",21},{"$id":163,"$type":"CharacterType, Assembly-CSharp",27},{"$id":164,"$type":"CharacterType,
-        Assembly-CSharp",13},{"$id":165,"$type":"CharacterType, Assembly-CSharp",14},{"$id":166,"$type":"CharacterType,
-        Assembly-CSharp",12},{"$id":167,"$type":"CharacterType, Assembly-CSharp",11},{"$id":168,"$type":"CharacterType,
-        Assembly-CSharp",10},{"$id":169,"$type":"CharacterType, Assembly-CSharp",9},{"$id":170,"$type":"CharacterType,
-        Assembly-CSharp",15},{"$id":171,"$type":"CharacterType, Assembly-CSharp",8},{"$id":172,"$type":"CharacterType,
-        Assembly-CSharp",16},{"$id":173,"$type":"CharacterType, Assembly-CSharp",17},{"$id":174,"$type":"CharacterType,
-        Assembly-CSharp",24},{"$id":175,"$type":"CharacterType, Assembly-CSharp",23},{"$id":176,"$type":"CharacterType,
-        Assembly-CSharp",22},{"$id":177,"$type":"CharacterType, Assembly-CSharp",18},{"$id":178,"$type":"CharacterType,
-        Assembly-CSharp",19},{"$id":179,"$type":"CharacterType, Assembly-CSharp",20},{"$id":180,"$type":"CharacterType,
-        Assembly-CSharp",21},{"$id":181,"$type":"CharacterType, Assembly-CSharp",27},{"$id":182,"$type":"CharacterType,
-        Assembly-CSharp",13},{"$id":183,"$type":"CharacterType, Assembly-CSharp",14},{"$id":184,"$type":"CharacterType,
-        Assembly-CSharp",12},{"$id":185,"$type":"CharacterType, Assembly-CSharp",11},{"$id":186,"$type":"CharacterType,
-        Assembly-CSharp",10},{"$id":187,"$type":"CharacterType, Assembly-CSharp",9},{"$id":188,"$type":"CharacterType,
-        Assembly-CSharp",15},{"$id":189,"$type":"CharacterType, Assembly-CSharp",8},{"$id":190,"$type":"CharacterType,
-        Assembly-CSharp",5}]}'
-      objectReference: {fileID: 0}
-    - target: {fileID: 6948326234073799617, guid: 9627d883ab4bd47428c8c98126e2eaa0, type: 3}
-      propertyPath: serializationData.PrefabModifications.Array.data[1]
-      value: '"path":"_skinDict.{0es}","value":$eref:0'
-      objectReference: {fileID: 0}
-    - target: {fileID: 6948326234073799617, guid: 9627d883ab4bd47428c8c98126e2eaa0, type: 3}
-      propertyPath: serializationData.PrefabModifications.Array.data[2]
-      value: '"path":"_skinDict.{1es}","value":$eref:1'
-      objectReference: {fileID: 0}
-    - target: {fileID: 6948326234073799617, guid: 9627d883ab4bd47428c8c98126e2eaa0, type: 3}
-      propertyPath: serializationData.PrefabModifications.Array.data[3]
-      value: '"path":"_skinDict.{2es}","value":$eref:2'
-      objectReference: {fileID: 0}
-    - target: {fileID: 6948326234073799617, guid: 9627d883ab4bd47428c8c98126e2eaa0, type: 3}
-      propertyPath: serializationData.PrefabModifications.Array.data[4]
-      value: '"path":"_skinDict.{3es}","value":$eref:3'
-      objectReference: {fileID: 0}
-    - target: {fileID: 6948326234073799617, guid: 9627d883ab4bd47428c8c98126e2eaa0, type: 3}
-      propertyPath: serializationData.PrefabModifications.Array.data[5]
-      value: '"path":"_skinDict.{4es}","value":$eref:4'
-      objectReference: {fileID: 0}
-    - target: {fileID: 6948326234073799617, guid: 9627d883ab4bd47428c8c98126e2eaa0, type: 3}
-      propertyPath: serializationData.PrefabModifications.Array.data[6]
-      value: '"path":"_skinDict.{5es}","value":null'
-      objectReference: {fileID: 0}
-    - target: {fileID: 6948326234073799617, guid: 9627d883ab4bd47428c8c98126e2eaa0, type: 3}
-      propertyPath: serializationData.PrefabModifications.Array.data[7]
-      value: '"path":"_skinDict.{6es}","value":$eref:5'
-      objectReference: {fileID: 0}
-    - target: {fileID: 6948326234073799617, guid: 9627d883ab4bd47428c8c98126e2eaa0, type: 3}
-      propertyPath: serializationData.PrefabModifications.Array.data[8]
-      value: '"path":"_skinDict.{7es}","value":$eref:6'
+        mscorlib","$rlength":19,"$rcontent":[{"$id":1,"$type":"CharacterType, Assembly-CSharp",16},{"$id":2,"$type":"CharacterType,
+        Assembly-CSharp",17},{"$id":3,"$type":"CharacterType, Assembly-CSharp",24},{"$id":4,"$type":"CharacterType,
+        Assembly-CSharp",23},{"$id":5,"$type":"CharacterType, Assembly-CSharp",22},{"$id":6,"$type":"CharacterType,
+        Assembly-CSharp",18},{"$id":7,"$type":"CharacterType, Assembly-CSharp",19},{"$id":8,"$type":"CharacterType,
+        Assembly-CSharp",20},{"$id":9,"$type":"CharacterType, Assembly-CSharp",21},{"$id":10,"$type":"CharacterType,
+        Assembly-CSharp",27},{"$id":11,"$type":"CharacterType, Assembly-CSharp",13},{"$id":12,"$type":"CharacterType,
+        Assembly-CSharp",14},{"$id":13,"$type":"CharacterType, Assembly-CSharp",12},{"$id":14,"$type":"CharacterType,
+        Assembly-CSharp",11},{"$id":15,"$type":"CharacterType, Assembly-CSharp",10},{"$id":16,"$type":"CharacterType,
+        Assembly-CSharp",9},{"$id":17,"$type":"CharacterType, Assembly-CSharp",15},{"$id":18,"$type":"CharacterType,
+        Assembly-CSharp",8},{"$id":19,"$type":"CharacterType, Assembly-CSharp",5}]}'
       objectReference: {fileID: 0}
     - target: {fileID: 6948326234073799617, guid: 9627d883ab4bd47428c8c98126e2eaa0, type: 3}
       propertyPath: serializationData.ReferencedUnityObjects.Array.data[0]
@@ -9603,36 +9556,8 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6948326234073799617, guid: 9627d883ab4bd47428c8c98126e2eaa0, type: 3}
       propertyPath: serializationData.PrefabModificationsReferencedUnityObjects.Array.size
-      value: 7
+      value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 6948326234073799617, guid: 9627d883ab4bd47428c8c98126e2eaa0, type: 3}
-      propertyPath: serializationData.PrefabModificationsReferencedUnityObjects.Array.data[0]
-      value: 
-      objectReference: {fileID: 41023023}
-    - target: {fileID: 6948326234073799617, guid: 9627d883ab4bd47428c8c98126e2eaa0, type: 3}
-      propertyPath: serializationData.PrefabModificationsReferencedUnityObjects.Array.data[1]
-      value: 
-      objectReference: {fileID: 642161166}
-    - target: {fileID: 6948326234073799617, guid: 9627d883ab4bd47428c8c98126e2eaa0, type: 3}
-      propertyPath: serializationData.PrefabModificationsReferencedUnityObjects.Array.data[2]
-      value: 
-      objectReference: {fileID: 1436869142}
-    - target: {fileID: 6948326234073799617, guid: 9627d883ab4bd47428c8c98126e2eaa0, type: 3}
-      propertyPath: serializationData.PrefabModificationsReferencedUnityObjects.Array.data[3]
-      value: 
-      objectReference: {fileID: 355806178}
-    - target: {fileID: 6948326234073799617, guid: 9627d883ab4bd47428c8c98126e2eaa0, type: 3}
-      propertyPath: serializationData.PrefabModificationsReferencedUnityObjects.Array.data[4]
-      value: 
-      objectReference: {fileID: 1483418719}
-    - target: {fileID: 6948326234073799617, guid: 9627d883ab4bd47428c8c98126e2eaa0, type: 3}
-      propertyPath: serializationData.PrefabModificationsReferencedUnityObjects.Array.data[5]
-      value: 
-      objectReference: {fileID: 794590043}
-    - target: {fileID: 6948326234073799617, guid: 9627d883ab4bd47428c8c98126e2eaa0, type: 3}
-      propertyPath: serializationData.PrefabModificationsReferencedUnityObjects.Array.data[6]
-      value: 
-      objectReference: {fileID: 111060153}
     - target: {fileID: 6970345166093717963, guid: 9627d883ab4bd47428c8c98126e2eaa0, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
       value: 71.34127
@@ -10159,3 +10084,4 @@ SceneRoots:
   - {fileID: 353128639}
   - {fileID: 660012784}
   - {fileID: 1100134906}
+  - {fileID: 3196108477546790095}

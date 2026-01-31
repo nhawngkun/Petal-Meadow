@@ -76,7 +76,7 @@ public  class Enemy : MonoBehaviour
     {
         health = maxHealth;
         RegisterStates();
-        stunEffect.gameObject?.SetActive(false);
+        // stunEffect.gameObject?.SetActive(false);
 
     }
 
