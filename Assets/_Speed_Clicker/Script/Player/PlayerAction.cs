@@ -27,13 +27,13 @@ public class PlayerAction : MonoBehaviour
 
     private void Start()
     {
-        SetSkin(GameManager.Instance.PlayerProfile.outfitProfile.skinEquip);
+        //SetSkin(GameManager.Instance.PlayerProfile.outfitProfile.skinEquip);
     }
 
     public void SetSkin(CharacterType type) 
     {
         Skin skin = _skinManager.GetSkin(type);
-        GameManager.Instance.PlayerProfile.outfitProfile.skinEquip = type;
+        //GameManager.Instance.PlayerProfile.outfitProfile.skinEquip = type;
         _mainAnimator = skin._animator;
     }
 
@@ -51,7 +51,7 @@ public class PlayerAction : MonoBehaviour
     public void SetAnimation()
     {
         ApplyToAnimator(_mainAnimator);
-        _mainAnimator.speed = _IsJump ? 1 :_MoveCurve.Evaluate(0.5f + GameController.Instance.PlayerController.bonusSpeed * GameController.Instance.PlayerController.MulSpeed());
+        //_mainAnimator.speed = _IsJump ? 1 :_MoveCurve.Evaluate(0.5f + GameController.Instance.PlayerController.bonusSpeed * GameController.Instance.PlayerController.MulSpeed());
     }
 
     private void ApplyToAnimator(Animator anim)
@@ -80,24 +80,3 @@ public class PlayerAction : MonoBehaviour
     }
 }
 
-public static class AnimatorParameters
-{
-    //Player
-    public static readonly int IS_MOVE = Animator.StringToHash("IsMove");
-    public static readonly int IS_JUMP = Animator.StringToHash("IsJump");
-    public static readonly int IS_ATTACK = Animator.StringToHash("IsAttack");
-    public static readonly int IDLE = Animator.StringToHash("Idle");
-    public static readonly int BLEND___IDLE__ID = Animator.StringToHash("Blend_Idle_ID");
-    public static readonly int BLEND___MOVE__ID = Animator.StringToHash("Blend_Move_ID");
-    public static readonly int IS_HIT = Animator.StringToHash("IsHit");
-    public static readonly int IS_DIE = Animator.StringToHash("IsDie");
-    public static readonly int IS_PUT_ITEM = Animator.StringToHash("PutItem");
-
-    ////Enemy
-    public static readonly int E_IS_RUN = Animator.StringToHash("Is_Move");
-    public static readonly int E_BLEND___MOVE__ID = Animator.StringToHash("Move_ID");
-
-
-    public static readonly int V_IS_RUN = Animator.StringToHash("IsMove");
-    public static readonly int V_IS_RAGGING = Animator.StringToHash("IsRagging");
-}

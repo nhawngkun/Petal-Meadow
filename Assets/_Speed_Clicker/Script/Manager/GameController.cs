@@ -6,14 +6,14 @@ using UnityEngine;
 public class GameController : Singleton<GameController>
 {
     public PlayerController PlayerController;
-    public PetManager PetManager;
+
     public override void Init()
     {
-        PetManager.LoadPetBag();
+
     }
     private void Start()
     {
-        PetManager.InitEquip();
+
     }
     public void Update()
     {

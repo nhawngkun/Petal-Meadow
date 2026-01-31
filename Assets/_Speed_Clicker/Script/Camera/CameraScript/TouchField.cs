@@ -7,9 +7,9 @@ using UnityEngine.EventSystems;
 
 public class TouchField : MonoBehaviour, IPointerDownHandler, IPointerUpHandler
 {
-    [HideInInspector] public bool Pressed;
-    [HideInInspector] public Vector2 TouchDist;
-    [HideInInspector] public Vector2 PointerOld;
+    public bool Pressed;
+    public Vector2 TouchDist;
+    public Vector2 PointerOld;
     //private int fingerId = -1;
 
     private void Update()
@@ -39,7 +39,7 @@ public class TouchField : MonoBehaviour, IPointerDownHandler, IPointerUpHandler
 
     public void OnPointerDown(PointerEventData eventData)
     {
-        GameController.Instance.PlayerController.AddBonus(1f);
+        //GameController.Instance.PlayerController.AddBonus(1f);
 
 
         if (eventData.position.x >= Screen.width / 2)

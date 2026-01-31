@@ -17,7 +17,6 @@ public class GacchaPetPanel : BaseUI
     public void OnGaccha() 
     {
         Hide();
-        UIManager.Instance.petOpenPanel.Show();
 
     }
 }

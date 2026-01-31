@@ -7,7 +7,7 @@ using UnityEngine;
 public class ObjectPool : ScriptableObject
 {
     [FoldoutGroup("UISlot")] public OutfitSlot _SlotOutfits;
-    public List<Pet> pets;
+
     #region Pool Slot
     public Dictionary<CharacterType, OutfitSlot> slotOutfitPool = new();
     #endregion
@@ -27,14 +27,5 @@ public class ObjectPool : ScriptableObject
     }
 
 
-    public Pet InstantiatePet(PetType type, Vector3 position)
-    {
-        return FastPoolManager.GetPool(pets[(int)type])
-            .FastInstantiate<Pet>(position, Quaternion.identity);
-    }
-
-    public void DestroyPet(PetType type, GameObject destroyedGo)
-    {
-        FastPoolManager.GetPool(pets[(int)type]).FastDestroy(destroyedGo);
-    }
+   
 }
