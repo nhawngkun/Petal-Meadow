@@ -1,0 +1,90 @@
+public enum CharacterType : byte
+{
+    Default = 0,
+    Adventurer = 1,
+    DevilClown = 2,
+    DivineSentinel = 3,
+    HyperNova = 4,
+    KeyboardHero = 5,
+    RGBMusic = 6,
+    ThunderPumkin = 7,
+    GirlDefault = 8,
+    BlackAngel = 9,
+    Butterfly = 10,
+    CatGodess = 11,
+    CutePink = 12,
+    CuteUnicorn = 13,
+    Kitty = 14,
+    AnimeFighter = 15,
+    Wicked_Wick = 16,
+    Wicked_Princess = 17,
+    NeonKitty = 18,
+    KPOP_DemonHunter_Rumi = 22,
+    KPOP_DemonHunter_Joey = 23,
+    KPOP_DemonHunter_Mira = 24,
+    ErrorPinkGirl = 19,
+    ErrorOrangeGirl = 20,
+    ErrorGreenBoy = 21,
+    Player_67 = 25,
+    Player_67Kid = 26,
+    Cockroach = 27,
+    Player_Tralaledon = 28,
+}
+public enum PetType : byte
+{
+
+    FlamingCorgy = 0,
+    NightwindDeer = 1,
+    UnicornPirazel = 2,
+    CelestialDragon = 3,
+    EmpyreanDragon = 4,
+    DeerBig = 5,
+    Bunny = 6,
+    Fox = 7,
+    PoliceDog = 8,
+    WhiteDragon = 9,
+    FourHead = 10,
+    FairyButterfly = 11,
+    FireAnt = 12,
+    Capuchino = 13,
+    Boneca = 14,
+    Yin_Yang_Bunny = 15,
+    Angle = 16,
+    Atlantean_Orca = 17,
+    Ice_Queen = 18,
+    Totem_Cat = 19,
+    Black_Hole_Kitsune = 20,
+    Evil_Bat = 21,
+    Flaming_Kraken = 22,
+    Immortuos = 23,
+    Skeleton_Shark = 24,
+    None = 25,
+}
+public enum ButtonType : byte 
+{
+    Green,
+    Red,
+    Blue,
+    Orange,
+    Gray,
+    Pink,
+    Rainbow,
+    Green_Long,
+    Gray_Long,
+    Orange_Long,
+}
+public enum PetRarity: byte
+{
+    Red,
+    Blue,
+    Orange,
+    Gray,
+    Pink,
+    Rainbow,
+}
+
+public enum UnlockType : byte 
+{
+    Free = 0,
+    Video = 1,
+}

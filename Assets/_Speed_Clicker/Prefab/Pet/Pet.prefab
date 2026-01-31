@@ -1,0 +1,70 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1538021121514186613
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2548852167154551599}
+  - component: {fileID: 8973255655314142611}
+  m_Layer: 0
+  m_Name: Pet
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2548852167154551599
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1538021121514186613}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 183.45822, y: 3.3503542, z: 42.659996}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8973255655314142611
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1538021121514186613}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 060df0e8a6e6d8641baf226bd19bcbff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  owner: {fileID: 0}
+  type: 0
+  id: 0
+  wanderRadius: 10
+  moveSpeed: 5
+  reachDistance: 0.3
+  chaseDistance: 20
+  catchDistance: 6
+  chaseSpeedMultiplier: 5
+  prepareTime: 0.5
+  brakeTime: 0.5
+  swayAmplitude: 0.25
+  swayFrequency: 4
+  bounceAmplitude: 1.5
+  bounceFrequency: 3.5
+  squashAmount: 0.12
+  hoverAmplitude: 0.3
+  hoverFrequency: 2
+  hoverSpeedInfluence: 0.5
+  hoverSmooth: 6
+  minDistanceToOwner: 4
+  avoidRadius: 1.5
+  avoidStrength: 2.5
+  minHoverHeight: 0.05

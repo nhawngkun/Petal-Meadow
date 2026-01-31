@@ -1,0 +1,364 @@
+fileFormatVersion: 2
+guid: 6b740f7be57a85f4bb888e37f502b7cc
+ModelImporter:
+  serializedVersion: 22200
+  internalIDToNameTable: []
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: dat
+    second: {fileID: 2100000, guid: ab56b4106e666f74abf7dea3e02a72f2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: dat hong
+    second: {fileID: 2100000, guid: ba7f67569654b3946a7aaf6774eaf8d9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: dat nau
+    second: {fileID: 2100000, guid: cd10f8a11439d654c9eaf92bc57974e7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: dirt blue
+    second: {fileID: 2100000, guid: b26f941e006115e418e51465c8e4b65f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: dirt blue purple
+    second: {fileID: 2100000, guid: a2ab9b0f251f5d34d8cded9019d6c50c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: dirt brown
+    second: {fileID: 2100000, guid: 6dd7f368a63d5834bbeacf457b414b2c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: dirt green
+    second: {fileID: 2100000, guid: 654fa614dce0e154aa04a0d54da284ad, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: dirt hong
+    second: {fileID: 2100000, guid: 9a607c12558e74f4791deb5bc917234e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: dirt ice
+    second: {fileID: 2100000, guid: caf4f6d044cba0d41af2ec95b22a27d3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: dirt ice 2
+    second: {fileID: 2100000, guid: caf4f6d044cba0d41af2ec95b22a27d3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: dirt pink
+    second: {fileID: 2100000, guid: 0e93d16d6497da948b3c1a46d2da05c0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: dirt purple
+    second: {fileID: 2100000, guid: 29c0d1727d55acc45b45c9429245b78d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: dirt red
+    second: {fileID: 2100000, guid: 04e582ca1d2ca0647a1f8aef56708003, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: dirt vang
+    second: {fileID: 2100000, guid: f2310e14bd3656c43bd175db952ff42f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: gach cam
+    second: {fileID: 2100000, guid: c1f10620a63702f4096afa4cb7abfae9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: gach dan xen
+    second: {fileID: 2100000, guid: e917ed0d8da683447be5b5166f687406, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: gach dan xen nau
+    second: {fileID: 2100000, guid: f1f8effe61bafa445ac038f6d7bc1d5e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: gach den
+    second: {fileID: 2100000, guid: 5f719632fb349aa4b98bf758587096da, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: gach do 3
+    second: {fileID: 2100000, guid: 914c9a2ec462c8b46ad042d63278ec1b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: gach do1
+    second: {fileID: 2100000, guid: 63a7515081f68ed4890fd500ed7575c6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: gach hong
+    second: {fileID: 2100000, guid: 543e67b01a3923a4fb9fa75f04630f5f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: gach mau da
+    second: {fileID: 2100000, guid: 3e50c649c389dd84c8473baf7807f87b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: gach tim
+    second: {fileID: 2100000, guid: f344d99f2c0ae3c4492255cb0f9eca11, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: gach tim dam
+    second: {fileID: 2100000, guid: 5036a62754a27b84e9555c32ae34a812, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: gach trang
+    second: {fileID: 2100000, guid: d568920213c74994eaeed15234f3690b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: gach vang
+    second: {fileID: 2100000, guid: a6bc18edd172a0f4b994bc09b1550331, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: gach xanh
+    second: {fileID: 2100000, guid: d173a7bd9cd97b6468ec7d74ecf78b8b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: gach xanh dam
+    second: {fileID: 2100000, guid: 778687588e1adb843a0cabd4b9a2901a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: gach xanh tim
+    second: {fileID: 2100000, guid: 297b780d8e3606a4b933298ec87fe153, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: gachdo2
+    second: {fileID: 2100000, guid: 4a172f36bcb8e6d47a5c663b2353e4f8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: inox hong
+    second: {fileID: 2100000, guid: 6c578b0df2d6a65449637d6907cd52f0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: inox nau
+    second: {fileID: 2100000, guid: e8528c4b312d3fa4992c8204c08238b6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: inox xam
+    second: {fileID: 2100000, guid: 26d862441c6a7234aa721f60b84965d2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: map1_1_2
+    second: {fileID: 2100000, guid: 5c8fa2581ed16a140b17f0f4ce277cfa, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: map1_1_3
+    second: {fileID: 2100000, guid: 37bc4f0c4ed0ef24d9ab6c9c79cdb0cc, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: map1_1_4
+    second: {fileID: 2100000, guid: 639b73ef36889124ea4b1b6c3c753435, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: map1_1_5
+    second: {fileID: 2100000, guid: e0f23c818967dd543b52b613d772f4b0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: map1_1_7
+    second: {fileID: 2100000, guid: 655bad8cae63e634c93b6f1acd78901a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: map1_nen co
+    second: {fileID: 2100000, guid: d2fe3c58241e51940831b09efbb6cd14, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: map1_nencat
+    second: {fileID: 2100000, guid: a174bc000b251ba43b8fac0d5c37231e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: map1_nendo
+    second: {fileID: 2100000, guid: de3d1ce0df20d604d938486f8164e14a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: nen co tim
+    second: {fileID: 2100000, guid: 407eee3442b10e34eb96108734ab9d6e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: nen co xanh
+    second: {fileID: 2100000, guid: 63b5bcd4216a9754282708106489c12f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: nen tuyet
+    second: {fileID: 2100000, guid: 0659f9799b104864ab025d425c86e731, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: san den
+    second: {fileID: 2100000, guid: 9741cd7a31c631944b05f314d39af375, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: wave do
+    second: {fileID: 2100000, guid: 61699ae62cdef964e8420d60bace73ee, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: wave hong
+    second: {fileID: 2100000, guid: bf781abe0c3868f4fb2a70aa1c37aaec, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: wave hong 2
+    second: {fileID: 2100000, guid: bf781abe0c3868f4fb2a70aa1c37aaec, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: wave vang
+    second: {fileID: 2100000, guid: e36a26da2d822254f9b244d892fba9e0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: wave xanh
+    second: {fileID: 2100000, guid: 98a3e6c1a58e1d644a39ae5907a5dfad, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: wave xanh la
+    second: {fileID: 2100000, guid: 64844c923e929ab4bbec83df82b00f38, type: 2}
+  materials:
+    materialImportMode: 2
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    removeConstantScaleCurves: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importPhysicalCameras: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    nodeNameCollisionStrategy: 1
+    fileIdsGeneration: 2
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    bakeAxisConversion: 0
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    optimizeBones: 1
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 1
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    strictVertexDataChecks: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 2
+  humanoidOversampling: 1
+  avatarSetup: 0
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 1
+  importBlendShapeDeformPercent: 1
+  remapMaterialsIfMaterialImportModeIsNone: 0
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

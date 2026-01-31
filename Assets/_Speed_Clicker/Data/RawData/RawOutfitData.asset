@@ -1,0 +1,102 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dcf15bd32e9b09644a49472bbaf4ddf2, type: 3}
+  m_Name: RawOutfitData
+  m_EditorClassIdentifier: 
+  rawOutfits:
+  - CharacterType: 0
+    UnlockType: 0
+    Price: 0
+  - CharacterType: 1
+    UnlockType: 1
+    Price: 2
+  - CharacterType: 2
+    UnlockType: 1
+    Price: 3
+  - CharacterType: 3
+    UnlockType: 1
+    Price: 3
+  - CharacterType: 4
+    UnlockType: 1
+    Price: 4
+  - CharacterType: 5
+    UnlockType: 1
+    Price: 3
+  - CharacterType: 6
+    UnlockType: 1
+    Price: 4
+  - CharacterType: 7
+    UnlockType: 1
+    Price: 4
+  - CharacterType: 8
+    UnlockType: 0
+    Price: 0
+  - CharacterType: 9
+    UnlockType: 1
+    Price: 3
+  - CharacterType: 10
+    UnlockType: 1
+    Price: 3
+  - CharacterType: 11
+    UnlockType: 1
+    Price: 4
+  - CharacterType: 12
+    UnlockType: 1
+    Price: 3
+  - CharacterType: 13
+    UnlockType: 1
+    Price: 2
+  - CharacterType: 14
+    UnlockType: 1
+    Price: 4
+  - CharacterType: 15
+    UnlockType: 1
+    Price: 3
+  - CharacterType: 16
+    UnlockType: 1
+    Price: 4
+  - CharacterType: 17
+    UnlockType: 1
+    Price: 4
+  - CharacterType: 18
+    UnlockType: 1
+    Price: 3
+  - CharacterType: 22
+    UnlockType: 1
+    Price: 4
+  - CharacterType: 23
+    UnlockType: 1
+    Price: 4
+  - CharacterType: 24
+    UnlockType: 1
+    Price: 4
+  - CharacterType: 19
+    UnlockType: 1
+    Price: 3
+  - CharacterType: 20
+    UnlockType: 1
+    Price: 3
+  - CharacterType: 21
+    UnlockType: 1
+    Price: 3
+  - CharacterType: 25
+    UnlockType: 1
+    Price: 3
+  - CharacterType: 26
+    UnlockType: 1
+    Price: 3
+  - CharacterType: 27
+    UnlockType: 1
+    Price: 3
+  - CharacterType: 28
+    UnlockType: 1
+    Price: 3
