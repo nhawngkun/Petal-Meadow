@@ -1,9 +1,8 @@
 using System;
 using UnityEngine;
-using Cysharp.Threading.Tasks;
+//using Cysharp.Threading.Tasks;
 using System.Threading;
 using Random = UnityEngine.Random;
-
 public class ShakeCamera : MonoBehaviour
 {
     private CancellationTokenSource cts;
@@ -21,29 +20,29 @@ public class ShakeCamera : MonoBehaviour
 
         // Lưu vị trí hiện tại làm gốc mỗi lần gọi
         Vector3 basePosition = transform.localPosition;
-        Shake(duration, magnitude, basePosition, cts.Token, start, end).Forget();
+       // Shake(duration, magnitude, basePosition, cts.Token, start, end).Forget();
     }
 
-    private async UniTaskVoid Shake(float duration, float magnitude, Vector3 basePosition, CancellationToken token,
-        Action start, Action end)
-    {
-        start?.Invoke();
-        float elapsed = 0f;
+   // private async UniTaskVoid Shake(float duration, float magnitude, Vector3 basePosition, CancellationToken token,
+       // Action start, Action end)
+    //{
+       // start?.Invoke();
+        //float elapsed = 0f;
 
-        while (elapsed < duration)
-        {
-            if (token.IsCancellationRequested) return;
+      //  while (elapsed < duration)
+       // {
+           //if (token.IsCancellationRequested) return;
 
-            Vector3 randomPoint = basePosition + Random.insideUnitSphere * magnitude;
-            transform.localPosition = randomPoint;
+           // Vector3 randomPoint = basePosition + Random.insideUnitSphere * magnitude;
+           // transform.localPosition = randomPoint;
 
-            elapsed += Time.unscaledDeltaTime;
-            await UniTask.Yield(PlayerLoopTiming.Update, token);
-        }
+           // elapsed += Time.unscaledDeltaTime;
+          //  await UniTask.Yield(PlayerLoopTiming.Update, token);
+       // }
 
-        transform.localPosition = basePosition;
-        end?.Invoke();
-    }
+       // transform.localPosition = basePosition;
+      //  end?.Invoke();
+   // }
 
 
 

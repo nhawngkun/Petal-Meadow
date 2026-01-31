@@ -1,6 +1,5 @@
 {
   "dependencies": {
-    "com.cysharp.unitask": "https://github.com/Cysharp/UniTask.git?path=src/UniTask/Assets/Plugins/UniTask",
     "com.nabagame.core": "file:Pack/core-main-main",
     "com.nabagame.ui": "file:Pack/ui-main-main/ui-main-main",
     "com.unity.ai.navigation": "1.1.6",
